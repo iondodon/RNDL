@@ -1,0 +1,22 @@
+Lab 1:
+1. to run diky fuller test to see if it is stationary
+2. remove trend
+3. split data into test and training, it is time series
+4. use past 10 values for prediction
+	first of all one layer with 100 epchocs use sgd optimizer, accuracy metric, dont forget to specify the validation data
+5. compare the loss and accurancy for test set and for training set
+6. when you see overfiting and explain
+when there is vanishing and exploding in the graiend, take a look at the plot, look at the accuracy and the loss
+7. make predictions
+8. play around with the model:
+	500 epochs, use plots to conclude
+	try 2,3,4 layers
+	tell which models overfit
+	use regularization methods: dropout, ... change percents, use autoregularization and ry to not overfit
+	
+	
+	hetero - take log
+	trend - take diff
+	
+undo the differencing when creating the predictions (we only train on the difference)
+not necessary to undo the log
