@@ -4,3 +4,5 @@ statsmodels
 matplotlib
 pandas
 sklearn
+seaborn
+gensim
