@@ -6,3 +6,6 @@ pandas
 sklearn
 seaborn
 gensim
+nltk
+fasttext
+transformers
